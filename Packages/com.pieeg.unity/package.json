@@ -1,0 +1,11 @@
+{
+  "name": "com.pieeg.unity",
+  "version": "0.0.1",
+  "displayName": "PiEEG for Unity",
+  "description": "WORK IN PROGRESS. Bare-minimum Unity client for PiEEG-server: connects over WebSocket and exposes raw EEG frames as a C# event / UnityEvent. No band-power computation, no smoothing, no demo scene yet.",
+  "unity": "2021.3",
+  "keywords": ["eeg", "pieeg", "ironbci", "bci", "websocket"],
+  "author": { "name": "PiEEG", "url": "https://pieeg.com" },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/pieeg-club/PiEEG-unity"
+}
