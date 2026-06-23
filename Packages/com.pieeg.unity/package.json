@@ -1,11 +1,12 @@
 {
   "name": "com.pieeg.unity",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "displayName": "PiEEG for Unity",
-  "description": "WORK IN PROGRESS. Bare-minimum Unity client for PiEEG-server: connects over WebSocket and exposes raw EEG frames as a C# event / UnityEvent. No band-power computation, no smoothing, no demo scene yet.",
-  "unity": "2021.3",
-  "keywords": ["eeg", "pieeg", "ironbci", "bci", "websocket"],
+  "description": "Stream live EEG from a PiEEG-server into Unity and build no-code neuro-reactive avatars. Includes the Neuro Binder (a UI Toolkit routing table that maps EEG bands to blendshapes & materials), a live in-editor preview driven by the real signal, a general-purpose runtime reactor, and a VRChat SDK Automator that bakes mappings into clips + a 1D blend tree and merges them non-destructively via Modular Avatar.",
+  "unity": "2022.3",
+  "keywords": ["eeg", "pieeg", "ironbci", "bci", "websocket", "vrchat", "avatar", "modular-avatar", "neurofeedback", "osc"],
   "author": { "name": "PiEEG", "url": "https://pieeg.com" },
   "license": "MIT",
-  "documentationUrl": "https://github.com/pieeg-club/PiEEG-unity"
+  "documentationUrl": "https://github.com/pieeg-club/PiEEG-unity",
+  "changelogUrl": "https://github.com/pieeg-club/PiEEG-unity/blob/main/Packages/com.pieeg.unity/CHANGELOG.md"
 }
