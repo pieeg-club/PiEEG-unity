@@ -2,9 +2,7 @@
   "name": "PiEEG.Unity.Tests",
   "rootNamespace": "PiEEG.Unity.Tests",
   "references": [
-    "PiEEG.Unity.Runtime",
-    "UnityEngine.TestRunner",
-    "UnityEditor.TestRunner"
+    "PiEEG.Unity.Runtime"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],

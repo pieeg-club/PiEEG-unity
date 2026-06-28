@@ -1,4 +1,7 @@
-# Unity
+# Unity Package - Meta files are regenerated on import
+*.meta
+
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
